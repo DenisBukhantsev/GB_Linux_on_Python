@@ -1,7 +1,7 @@
 import subprocess
 
 
-result = subprocess.run("cat /etc/os-release", shell=True, stdout=subprocess.PIPE, encoding="utf=8")
+#result = subprocess.run("cat /etc/os-release", shell=True, stdout=subprocess.PIPE, encoding="utf=8")
 #print(result)
 #out = result.stdout
 #print(out)
