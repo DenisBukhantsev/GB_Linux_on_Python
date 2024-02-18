@@ -1,5 +1,7 @@
 import pytest
 from HW_1 import chek_func
+with open('config.yaml') as f:
+    data = yaml.safe_load(f)
 folder_in = "/home/user/folder_in"
 folder_out = "/home/user/folder_out"
 folder_ex = "/home/user/folder_ex"
